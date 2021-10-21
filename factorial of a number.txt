@@ -1,0 +1,16 @@
+//                         [factorial of a number ]
+
+#include <stdio.h>
+
+int main()
+{
+   int a,num,fact=1;
+   printf("enter the number for factorial   ");
+   scanf("%d",&num);
+   for(a=1;a<=num;a++){
+      fact=fact*a;
+   }
+      printf("the factorial of %d is %d",num,fact);
+   
+    return 0;
+}
